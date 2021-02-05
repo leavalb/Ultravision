@@ -187,6 +187,7 @@ width: 185px;
 height: 45px;
 margin: 32px 455px 356px 60px;
 padding: 7px 24px 7px 23px;
+text-align: center;
 border-radius: 15px;
 border: solid 4px;
 color: #ffffff;
@@ -221,43 +222,10 @@ height: 576px;
 mix-blend-mode: darken;
 }
 
- .footer {
+ .footer-title {
 color: #ffffff;
 }
 
-h4 {
-  /* Default font, size, and margins */
+.footer{
+  background-color: #231F20;
 }
-
-h5 {
-  /* Default font, size, and margins */
-}
-
-h6 {
-  /* Default font, size, and margins */
-}
-
-
-a {
-  /* Link color */
-}
-
-a:hover {
-  /* Link color on mouse over */
-}
-
-
-/**
-* ------
-* Layout
-* ------
-*/
-
-
-
-
-/**
-* ----------
-* Components
-* ----------
-*/
