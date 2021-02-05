@@ -26,7 +26,6 @@ font-weight: 900;
 line-height: 1;
 }
 
-
 .header-stripe {
 margin:8px 0;
 }
@@ -53,7 +52,9 @@ p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
 
+img {
 
+}
 .bigtitle {
 color: #231F20;
 font-size: 40px;
@@ -71,9 +72,63 @@ flex-basis: 0;
 flex-grow: 1;
 }
 
+.titre-paragraphe{
+width: 640px;
+height: 33px;
+margin: 0 31px 34px 0;
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+}
+
+.ordinateur-1{
+width: 487px;
+height: 471px;
+}
+
+.paragraphe1{
+width: 640px;
+height: 345px;
+margin: 34px 31px 30px 0;
+font-size: 16px;
+text-align: justify;
+}
+
+.bouton-1{
+width: 185px;
+height: 48px;
+margin: 30px 31px 22px 455px;
+padding: 10px 36px;
+border-radius: 15px;
+border: solid 4px;
+color: #fcce00bd;
+}
+
+.ordinateur-2{
+width: 378px;
+height: 486px;
+}
+
+.paragraphe2{
+width: 640px;
+height: 184px;
+margin: 32px 14px 32px 32px;
+font-size: 16px;
+text-align: justify;
+}
+
+.bouton-2{
+width: 185px;
+height: 48px;
+margin: 30px 31px 22px 455px;
+padding: 10px 36px;
+border-radius: 15px;
+border: solid 4px;
+color: #ff6b00bd;
+}
 
  .footer {
-font-color: #ffffff;
+color: #ffffff;
 }
 
 h4 {
