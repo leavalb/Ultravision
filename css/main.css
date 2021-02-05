@@ -3,6 +3,7 @@
 * Global Styles
 * -------------
 */
+
 .header-title {
 margin:8px 0;
 padding: 15px;
@@ -52,8 +53,27 @@ p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
 
-h3 {
-  /* Default font, size, and margins */
+
+.bigtitle {
+color: #231F20;
+font-size: 40px;
+text-align: center;
+}
+
+.block{
+display : flex;
+justify-content: space-around;
+align-items: stretch;
+}
+
+.colonne{
+flex-basis: 0;
+flex-grow: 1;
+}
+
+
+ .footer {
+font-color: #ffffff;
 }
 
 h4 {
