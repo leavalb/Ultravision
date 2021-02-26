@@ -240,6 +240,7 @@ position: relative;
 
 .grille-content{
 position: absolute;
+background-color: #231F20;
 top: 0;
 right: 0;
 bottom: 0;
@@ -248,9 +249,40 @@ opacity: 0;
 transition: opacity 300ms,
 }
 
+.grille-category{
+width: 117px;
+height: 20px;
+margin: 20px 81px 40px 100px;
+font-family: Poppins;
+font-size: 14px;
+text-align: center;
+color: #ffffff
+}
+
+.grille-title{
+width: 280px;
+height: 32px;
+margin: 20px 81px 40px 20px;
+font-family: Poppins;
+font-size: 32px;
+font-weight: bold;
+line-height: 1;
+text-align: center;
+color: #fcce00;
+}
+
+.grille-description{
+width: 280px;
+height: 69px;
+margin: 5px 81px 40px 30px;
+font-family: Poppins;
+font-size: 16px;
+text-align: center;
+color: #ffffff;
+}
+
 .game:hover .grille-content {
-opacity: 1;
-transform: translateY(-10px);
+opacity: 0.81;
 }
 
 .footer{
