@@ -222,16 +222,35 @@ height: 576px;
 mix-blend-mode: darken;
 }
 
+.advance2{
+color: #ffffff;
+font-size: 40px;
+text-align: center;
+}
+
 .grille{
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-gap: 20px;
 }
 
-.advance2{
-color: #ffffff;
-font-size: 40px;
-text-align: center;
+.game{
+position: relative;
+}
+
+.grille-content{
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+opacity: 0;
+transition: opacity 300ms,
+}
+
+.game:hover .grille-content {
+opacity: 1;
+transform: translateY(-10px);
 }
 
 .footer{
