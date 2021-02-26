@@ -222,6 +222,12 @@ height: 576px;
 mix-blend-mode: darken;
 }
 
+.grille{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 20px;
+}
+
  .footer-title {
 color: #ffffff;
 }
